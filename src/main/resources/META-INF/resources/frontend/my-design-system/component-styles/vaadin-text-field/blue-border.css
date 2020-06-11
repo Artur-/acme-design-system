@@ -1,0 +1,3 @@
+:host([class~="fancy"]) [part="input-field"] {
+  border: 3px solid blue;
+}
