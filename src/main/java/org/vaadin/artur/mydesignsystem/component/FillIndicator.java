@@ -11,7 +11,7 @@ import com.vaadin.flow.component.dependency.NpmPackage;
 
 @NpmPackage(value = "lit-element", version = "2.3.0")
 @Tag("fill-indicator")
-@JsModule("./component/fill-indicator.ts")
+@JsModule("./acme-component/fill-indicator.ts")
 public class FillIndicator extends Component implements HasStyle, ClickNotifier<FillIndicator> {
 
     PropertyDescriptor<Integer, Integer> valueProperty = PropertyDescriptors.propertyWithDefault("value", 0);

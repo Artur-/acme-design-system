@@ -10,7 +10,7 @@ import com.vaadin.flow.component.dependency.NpmPackage;
 
 @Tag("my-button")
 @NpmPackage(value = "lit-element", version = "2.3.0")
-@JsModule("./component/my-button.js")
+@JsModule("./acme-component/my-button.js")
 public class MyButton extends Button {
     public MyButton() {
     }
