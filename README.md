@@ -10,3 +10,9 @@ This is a design system that extends the acme base design system available at ht
   - A vaadin-text-field with class=fancy gets a solid blue border
 - Custom components
   - A `<fill-indicator>`/`FillIndicator` component is included
+
+
+Build locally using
+```
+mvn install
+```
