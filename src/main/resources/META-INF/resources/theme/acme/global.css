@@ -1,8 +1,6 @@
-html {
+html,
+:host {
   --lumo-font-size: 40px;
-}
-
-body {
   background: lightblue;
 
   --vaadin-charts-color-0: rgb(255, 255, 0);
