@@ -1,3 +1,9 @@
 {
-    "parent": "acme-base"
+  "parent": "acme-base",
+  "assets": {
+    "@fortawesome/fontawesome-free": {
+      "svgs/regular/**": "fa/svg"
+    }
+  },
+  "documentCss": ["@fortawesome/fontawesome-free/css/all.css"]
 }
